@@ -1,0 +1,34 @@
+Discard Cards:
+You and your friends are playing a card game. You pick n numbers of UNO cards from the deck. The rule of the card game is- one person says a number, t and you have to discard the alternative cards with the same number from your hand without changing the relative position of other cards. Implement the scenario using a proper method which takes the cards in your hands as an array and a number as parameters; and returns the resulting array. The empty spaces are denoted as 0 in the array.
+Start from deleting the first t.
+Sample Input / Driver Code:
+cards=[1,3,7,2,5,2,2,2,0]
+
+#Function Call: 
+print(discardCards(cards, t = 2))
+
+Sample Output:
+[1,3,7,5,2,2,0,0,0]
+
+Explanation:
+[1,3,7,20,5,21,22,23,0]
+Starting from the first 2, the alternative 2’s are 20 and 22. After removing them, the resulting array is - [1,3,7,5,2,2,0,0,0]
+
+
+
+Sample Input / Driver Code:
+cards=[5,5,5,0,0]
+
+#Function Call: 
+print(discardCards(cards, t = 5))
+
+Sample Output:
+[5,0,0,0,0]
+
+Explanation:
+[50, 51, 52,0,0]
+Starting from the first 5, the alternative 5’s are 50 and 52. After removing them, the resulting array is -
+[5,0,0,0,0]
+
+
+
