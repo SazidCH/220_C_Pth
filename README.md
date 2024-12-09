@@ -63,4 +63,3 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 
 ---
 
-Feel free to adjust the structure or wording to better align with your project!
