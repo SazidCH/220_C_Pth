@@ -1,0 +1,6 @@
+Decryption Process:
+	Suppose you're working as a cryptographer for a secret intelligence agency. You	 are given an encrypted matrix as an input. You have to decrypt it after some processing of the given matrix.
+
+To decrypt this message efficiently, you have a task to construct a method called decrypt_matrix(matrix) which takes an encrypted matrix as input and returns a decrypted linear array. The process of finding the decrypted linear array is given below:
+
+You have to find out the column-wise summations for each column and store the difference of subsequent column-wise summations in a new linear array.
