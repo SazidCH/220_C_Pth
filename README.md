@@ -1,6 +1,5 @@
 # 220_C_Pth
-Here's a revised README for your repository, focusing on Python and incorporating the detailed structure you requested:
-
+*For better grasp*
 ---
 
 # 220_Python_Path
